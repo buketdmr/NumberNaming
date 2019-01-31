@@ -12,17 +12,15 @@
         <div id="header" class="container-fluid">
             <h2 class="text-center"> Number Naming </h2>
         </div>
-        <div class="container">
-                <br/>
+        <br/>
                 <div class="row">
-                    <div class="col-md-5"><input class="form-control" ng-model="mynumber" placeholder="Enter your number" ng-change="InputChanged()"></div>
-                    <div class="col-md-5"><input type="button" ng-click="NumToWord()" class="btn btn-primary"  value="Type The Number ">   </div>
+                    <div class="col-md-6"><input id="inputFld" class="form-control" ng-model="mynumber" placeholder="Enter your number" ng-change="InputChanged()"></div>
+                    <div class="col-md-6"><input type="button" ng-click="NumToWord()" class="btn btn-primary"  value="Type The Number ">   </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-md-5"><h5 class="text-center" ng-show= showflag>  Number is  <span class="glyphicon glyphicon-arrow-right"></span> {{user}}</h5>
+                    <div class="col"><h5 class="text-center" ng-show= showflag>  Number is  <span class="glyphicon glyphicon-arrow-right"></span> {{user}}</h5>
                     </div>
-            </div>
     </div>
     </body>
     </html>

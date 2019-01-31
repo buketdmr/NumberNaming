@@ -18,3 +18,13 @@
     margin-top: 20PX;
     margin-left: 20px
  }
+
+ .container-fluid {
+   
+   padding:5;
+}
+
+#inputFld{
+   margin-left: 20px;
+    position: relative;
+}
